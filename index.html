@@ -46,7 +46,7 @@
     <span class="label">② 好きな番号だけ打って指定（例：2, 5, 8）</span>
     <div class="input-row">
       <input type="text" id="customNums" placeholder="番号をカンマやスペース区切りで入力" inputmode="numeric">
-      <button class="sub-btn" onclick="showCustom()">抽出</button>
+      <button class="sub-btn" onclick="showCustom()">表示</button>
     </div>
 
     <div class="options">
@@ -58,7 +58,7 @@
     </div>
 
     <div id="dataPanel" style="margin-top: 15px; border-top: 1px dashed #ccc; padding-top: 12px;">
-      <span class="label">単語データ登録（番号,英語,日本語 を1行ずつ入力）</span>
+      <span class="label">単語データ登録（番号,英語,日本語 を1行ずつ入力）⚠️消すと戻らないから注意⚠️</span>
       <textarea id="rawInput" rows="6" placeholder="1,require,〜を必要とする&#10;2,provide,〜を提供する"></textarea>
       <button class="save-btn" onclick="saveData()">このスマホに保存する</button>
     </div>
